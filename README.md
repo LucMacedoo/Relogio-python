@@ -1,19 +1,39 @@
 # Relogio-python
 
-Bem-vindo ao meu projeto de relógio em Python! Este é um simples relógio desenvolvido em Python usando a biblioteca Tkinter para criar a interface gráfica e o datetime para captação de horas
+Bem-vindo ao meu projeto de **relógio em Python**! 
+Este é um projeto de relógio desenvolvido na linguagem Python, com foco no aprendizado e prática de manipulação de datas e utilização da biblioteca tkinter.
 
-# Como Usar
+## Sobre o Projeto
 
-O usuário poderá rodar o algoritmo python, mas está disponível também o executável para facilitar o utilizador, não há nada de especifico para o usuário mexer dentro do aplicativo, por ser somente um código simples em Python, o usuário visualizará somente as horas, o dia e o nome do dia da semana correspondente a data atual
+Este projeto foi criado com o objetivo de consolidar conhecimentos adquiridos ao longo do período da faculdade e através de cursos que me ensinaram a utilizar manipulação de datas e de bibliotecas como tkinter. A aplicação possui uma interface que permite o usuário visualizar o horário que consta no computador local.
 
-## Baixar
+## Funcionalidades
 
-Para baixar abra o terminal no diretório que deseja salvar o arquivo e digite:
+Ao executar o programa, o usuário terá acesso a uma tela com **4 características** fundamentais:
 
-```
+1. **Exibição de hora**
+   O usuário verifica as horas, minutos e segundos daquele instante que o usuário abre o aplicativo.
+
+2. **Exibição do dia da semana**
+   O usuário verifica o dia da semana em português (Segunda-Feira a Domingo).
+
+3. **Exibição de data**
+   O usuário verifica a data no formato DD/MM/YYYY.
+
+4. **Atualização contínua**
+   O usuário recebe a atualização de data, dia da semana e hora a cada segundo para visualização constante do horário correto.
+
+---
+
+## Como executar
+
+### Requisitos
+
+- Python 3 ou superior instalado no sistema.
+- Sistema Operacional Windows, Linux ou macOS.
+
+### Clonando o repositório
+
+```bash
 git clone https://github.com/LucMacedoo/Relogio-python.git
-```
-
-## Motivo do projeto
-
-Projeto feito para ganhar experiência em interfaces gráficas, também serviu para aprender a manipular datas e horários e fazer atualizações em tempo real. Serve também para ganhar experiência com a linguagem de programação Python
+cd Relogio-python
